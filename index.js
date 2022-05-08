@@ -447,6 +447,14 @@ window.onload = () => {
 	keyboard.classList.add('keyboard');
 	document.body.append(keyboard);
 
+	const h3 = document.createElement('h3');
+	h3.innerHTML = 'Клавиатура создана в операционной системе Windows';
+	document.body.append(h3);
+
+	const h3Two = document.createElement('h3');
+	h3Two.innerHTML = 'Для переключения языка комбинация: левыe ctrl + alt';
+	document.body.append(h3Two);
+
 	let addKeysDom = function(objKey) {
         let key = document.createElement('div');
         key.className = objKey.code;
