@@ -49,6 +49,7 @@ h1,h3 {
 .keyboard div:hover {
     background-color: rgb(73, 72, 72);
     cursor: pointer;
+	transition: ease-in-out 0.2s;
 }
 
 .keyboard div:active, .keyboard .active  {
@@ -56,6 +57,7 @@ h1,h3 {
     background-color: red;
     color: #fff;
     cursor: pointer;
+	transition:  ease-in-out 0.2s;
 }
 
 .ShiftLeft {
