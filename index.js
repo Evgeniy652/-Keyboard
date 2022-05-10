@@ -455,6 +455,10 @@ window.onload = () => {
 	h3Two.innerHTML = 'Для переключения языка комбинация: левыe ctrl + alt';
 	document.body.append(h3Two);
 
+	const h3Three = document.createElement('h3');
+	h3Three.innerHTML = '<a href="https://github.com/Evgeniy652/Keyboard/pull/1">Ссылка на github</a>';
+	document.body.append(h3Three);
+
 	let addKeysDom = function(objKey) {
         let key = document.createElement('div');
         key.className = objKey.code;
